@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<htlm>
+	<head>
+		<title> Cadastro</title>
+	</head>
+	<body>
+
+	<h2 style="text-align:Center;">
+		Ficha Cadastral
+	</h2>
+	<form action="action">
+		<table style="width:500px"; cellspacing ="1px";  cellpadding="1px"; Border="0" align= "center" >
+			<tr>
+				<td> Nome: </td>
+				<td colspan="3"> <input type="text" size="50"></td>
+			</tr>
+			<tr>
+				<td>Rg:</td>
+				<td align="left"> <input type="text" size="13" ></td>
+				<td>CPF:</td>
+				<td><input type="text" size="13"></td>				
+			</tr>			
+			<tr>
+				<td>Endereço:</td>
+				<td colspan="3"> <input type="text" size="50"></td>
+			</tr>
+			<tr>
+				<td>Sexo: </td>
+				<td><select name="sexo">
+					<option value="feminino">feminino</option>
+					<option value="masculino">masculino</option>
+				</select>
+				</td>
+				<td>Data Nascimento:</td>
+				<td><input type="text" size="13"></td> 
+
+			</tr>
+			<tr>
+				<td> Situação Civil</td>
+				<td><INPUT TYPE="radio" NAME="Opcao" VALUE="solteiro">Solteiro(a)</td>
+				<td ><INPUT TYPE="radio" NAME="Opcao" VALUE="casado">Casado(a)</td>
+				<td ><INPUT TYPE="radio" NAME="Opcao" VALUE="viuvo">Viúvo(a)</td>
+			</tr>
+			<tr>
+				<td colspan="5" align="center"><input type="reset" value="Apagar Campos">
+
+			</tr>
+		</table>
+	</form>
+ 
+	</body>
+</html>
